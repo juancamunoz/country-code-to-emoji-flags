@@ -1,0 +1,23 @@
+{
+    "name": "juancamunoz/country-code-to-emoji-flags",
+    "type": "library",
+    "description": "Converts string of country codes into string of emoji flags.",
+    "keywords": ["country", "flag", "emoji"],
+    "homepage": "https://github.com/juancamunoz/country-code-to-emoji-flags",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Juan Carlos Munoz",
+            "homepage": "https://github.com/juancamunoz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "juancamunoz\\flagEmoji\\": "src/"
+        }
+    }
+}
